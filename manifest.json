@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Open As Popup",
+    "version": "1.0",
+    "description": "Open a browser tab in presentation mode without tabs and other toolbars",
+    "permissions": [
+        "contextMenus"
+    ],
+    "icons": {
+        "16": "./images/popup_16.png",
+        "48": "./images/popup_48.png",
+        "128": "./images/popup_128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },    
+    "action": {
+        "default_icon": "./images/popup.png"
+    }    
+}
